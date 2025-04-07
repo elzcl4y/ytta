@@ -1,0 +1,8 @@
+<?php
+// Tentukan URL tujuan redirect
+$url = "https://t.ly/helptbu";
+
+// Lakukan redirect ke URL yang ditentukan
+header("Location: $url");
+exit();
+?>
